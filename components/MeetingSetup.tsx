@@ -32,7 +32,7 @@ const MeetingSetup = ({
   }
 
   // https://getstream.io/video/docs/react/ui-cookbook/replacing-call-controls/
-  const [isMicCamToggled, setIsMicCamToggled] = useState(false);
+  const [isMicCamToggled, setIsMicCamToggled] = useState(true);
 
   useEffect(() => {
     if (isMicCamToggled) {
